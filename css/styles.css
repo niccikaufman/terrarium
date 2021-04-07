@@ -1,0 +1,77 @@
+body {
+  font-family: monospace
+}
+
+.jumbotron {
+  background-color: aquamarine;
+  text-align: center;
+  padding: 3%;
+}
+
+.container {
+  background-color: antiquewhite;
+  width: 15%;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  height: 100%;
+  padding: 10px;
+}
+
+.plant-holder {
+  position: relative;
+  height: 13%;
+  left: -10px;
+}
+
+.plant {
+  position: absolute;
+  max-width: 150%;
+  max-height: 150%;
+  z-index: 2;
+}
+
+.jar-top {
+  height: 50%;
+  width: 5%;
+  background: rgb(176, 222, 250);
+  position: absolute;
+  bottom: 80..5%;
+  left: 25%;
+  opacity: .7;
+  z-index: 1;
+}
+
+.jar-walls {
+  height: 80%;
+  width: 60%;
+  background: rgb(207, 225, 248);
+  border-radius: 1rem;
+  position: absolute;
+  bottom: .5%;
+  left: 20%;
+  opacity: .5;
+  z-index: 1;
+}
+
+.jar-bottom {
+  width: 50%;
+  height: 1%;
+  background:rgb(176, 222, 250);
+  position: absolute;
+  bottom: 0%;
+  left: 25%;
+  opacity: .7;
+}
+
+.dirt{
+  width: 60%;
+  height: 5%;
+  background: burlywood;
+  position: absolute;
+  border-radius: 0 0 1rem 1rem;
+  bottom: 1%;
+  left: 20%;
+  opacity: .7;
+  z-index: -1;
+}
